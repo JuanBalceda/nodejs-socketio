@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_socketio",
+  "version": "1.0.0",
+  "description": "Example Node.js project with Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd frontend && npm install",
+    "start-frontend": "cd frontend && npm run start",
+    "start-backend": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanBalceda/nodejs-socketio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanBalceda/nodejs-socketio/issues"
+  },
+  "homepage": "https://github.com/JuanBalceda/nodejs-socketio#readme",
+  "dependencies": {
+    "nodemon": "^1.18.4",
+    "socket.io": "^2.1.1"
+  }
+}
